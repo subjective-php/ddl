@@ -1,0 +1,35 @@
+{
+    "name": "subjective-php/ddl",
+    "type": "library",
+    "description": "Object-oriented ddl builders for a variety of databases; can be used with any database connection library.",
+    "keywords": [
+        "ddl",
+        "database",
+        "schema"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "chadicus/coding-standard": "^1.8",
+        "phpunit/phpunit": "^6.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "SubjectivePHP\\DDL\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SubjectivePHPTest\\DDL\\": "tests"
+        }
+    },
+    "scripts": {
+        "lint": "vendor/bin/phpcs",
+        "test": "vendor/bin/phpunit"
+    }
+}

@@ -1,0 +1,10 @@
+# Enforce Unix newlines
+* text=lf
+
+# Exclude unused files
+# see: https://redd.it/2jzp6k
+/.github    export-ignore
+/tests      export-ignore
+.*          export-ignore
+*.xml.dist  export-ignore
+README.md   export-ignore

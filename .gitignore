@@ -1,0 +1,8 @@
+/vendor/
+*.
+!.gitattributes
+!.gitignore
+!.github
+composer.lock
+phpcs.xml
+phpunit.xml
