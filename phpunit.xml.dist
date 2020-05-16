@@ -10,6 +10,6 @@
         </whitelist>
     </filter>
     <logging>
-        <log type="coverage-text" lowerUpperBounds="99" higherLowerBound="100" showUncoveredFiles="false" showOnlySummary="true" />
+        <log type="coverage-text" target="php://stdout" lowerUpperBounds="99" higherLowerBound="100" showUncoveredFiles="false" showOnlySummary="true" />
     </logging>
 </phpunit>
