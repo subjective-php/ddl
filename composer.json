@@ -13,6 +13,7 @@
     },
     "require-dev": {
         "chadicus/coding-standard": "^1.8",
+        "phing/phing": "^2.16",
         "phpunit/phpunit": "^6.5"
     },
     "config": {
@@ -29,7 +30,7 @@
         }
     },
     "scripts": {
-        "lint": "vendor/bin/phpcs",
-        "test": "vendor/bin/phpunit"
+        "lint": "vendor/bin/phing phpcs",
+        "test": "vendor/bin/phing phpunit"
     }
 }
