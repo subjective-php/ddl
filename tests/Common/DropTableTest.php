@@ -13,6 +13,7 @@ final class DropTableTest extends TestCase
     /**
      * @test
      * @covers ::table
+     * @covers ::getDDL
      */
     public function dropTable()
     {
@@ -24,6 +25,7 @@ final class DropTableTest extends TestCase
     /**
      * @test
      * @covers ::ifExists
+     * @covers ::getDDL
      */
     public function dropTableIfExists()
     {
